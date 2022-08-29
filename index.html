@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>console.log("inside html tag")</script>
+    <title>Name Variations</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-brand">Your Name Variations</h1>
+    </nav>
+
+<main class="container">
+    <div>
+        <label for="component-name" class="label">Enter your Name:</label>
+        <input type="text" class="input" id="your-name" autocomplete="off" placeholder="Place your name here">
+    </div>
+    
+    <table class="table" border="1">
+        <thead>
+            <tr>
+                <th width="200px">Variations</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Number of Characters</td>
+                <td id="answer1"></td>
+            </tr>
+            <tr>
+                <td>Upper Case</td>
+                <td id="answer2"></td>
+            </tr>
+            <tr>
+                <td>Lower Case</td>
+                <td id="answer3"></td>
+            </tr>
+            <tr>
+                <td>Reverse Name</td>
+                <td id="answer4"></td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
